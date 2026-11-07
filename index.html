@@ -5,11 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>晨光笔记</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="theme.js" defer></script>
 </head>
 <body>
   <header class="top">
     <span class="brand">晨光笔记</span>
-    <span class="tagline">把想法留在早上最好的光里</span>
+    <div class="top-right">
+      <span class="tagline">把想法留在早上最好的光里</span>
+      <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="深色模式">
+        <span class="theme-toggle__track" aria-hidden="true"><span class="theme-toggle__thumb"></span></span>
+        <span class="theme-toggle__label">深色模式</span>
+      </button>
+    </div>
   </header>
   <main>
     <section class="hero">
